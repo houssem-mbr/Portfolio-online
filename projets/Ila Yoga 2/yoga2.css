@@ -1,0 +1,181 @@
+*{
+	box-sizing: border-box;
+}
+
+/*header*/
+header{
+	background: url(img/fond.jpg) fixed ;
+	background-size: cover;
+	text-align: center;
+	height: 47em;
+}
+nav{
+	background-color: rgba(255,255,255,0.4);
+}
+header div{
+	background-color: rgba(255,255,255,0.2);
+	font-family: 'Playfair Display SC', serif;
+	margin: 0;
+	font-size: 1em;
+	color: white;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+header nav ul{
+	margin: 0;
+
+}
+header nav ul li{
+	display: inline-block;
+	margin: 1em 3em;
+}
+nav ul li a{
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Kaushan Script', cursive;
+	text-decoration: none;
+}
+header h1{
+	font-size: 2em;
+	font-family: 'Kaushan Script', cursive;
+	margin-top: 10em;
+	color: white;
+	 text-shadow: 2px 2px 4px #000000;
+
+}
+
+main{
+	text-align: center;
+	margin: 2em;
+
+}
+main h1{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	color:#6E6E6E;
+	font-size: 2em;
+
+}
+/*section 1 tableaux*/
+
+
+
+#section1{
+	width: 90%;
+	
+}
+
+#section1 table{
+	width: 100%;
+	margin:0 5em 2em 5em;
+	
+
+}
+table, th, td {
+  border: 1px solid #E6E6E6;
+  border-collapse: collapse;
+}
+table th{
+	text-align: left;
+	background-color: #C4A7E1;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	height: 2.3em;
+	font-size: 1.6em;
+}
+table td{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	height: 2em;
+	font-size: 1em;
+}
+.date{
+	text-align: left;
+
+}
+#section1 a{
+	text-decoration: none;
+	color: #b297e0;
+}
+.grey{
+	background-color: #F2F2F2;
+}
+/*section2*/
+#section2{
+	width: 90%;
+}
+#section2 legend{
+	font-size: 1.6em;
+
+}
+fieldset{
+	margin:0 5em 2em 5em;
+	padding: 40px;
+	font-family: 'Playfair Display', serif;
+	width: 100%;
+	border:1px solid #E6E6E6;
+}
+#text,#name,#mail{
+	border:none;
+	border-bottom: 1px solid #E6E6E6;
+}
+#select{
+	width: 100%;
+}
+#btn{
+	background-color:#9666C7;
+	color:white;
+	padding: 0.5em 1.3em 0.5em 1.3em; 
+}
+#h1{
+	font-size: 1.6em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    background: url(img/background_section.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+#licence img {
+    width: 50px;
+}
+article a {
+	font-family: 'montserrat', sans-serif;
+
+}

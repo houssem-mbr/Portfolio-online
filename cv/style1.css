@@ -1,0 +1,115 @@
+@font-face {
+	font-family: cardo-bold;
+  src: url(cardo-bold.woff);
+  
+}
+@font-face {
+	font-family: cardo-italic;
+  src: url(cardo-italic.woff);
+  
+}
+@font-face {
+	font-family: cardo-regular;
+  
+  src: url(cardo-regular.woff);
+}
+html{
+	cursor: url('p.png'), auto;	
+}
+
+@font-face{
+	font-family:Blacksword;
+	src: url(Blacksword.otf);
+}
+header img{
+	width: 125px ; 
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: auto;
+    float: left;
+    box-shadow: 10px 10px 10px grey;
+   
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 1em;
+    float: right;
+    margin-top: 5em;
+    margin-right: 3em;
+    font-size:20px; 
+}
+nav li a{
+	color:black;
+	font-weight: bold;
+	font-family: 'Righteous', cursive;
+	}
+
+nav ul {
+
+	margin: 0;
+	padding: 0;
+	}
+main{
+	clear: both;
+	padding: 1.2em;
+}
+img:hover{
+	cursor: pointer;
+}
+.houssem{
+	font-family: Blacksword;
+	font-size: 2.5em;
+	text-align: center;
+}
+header{
+		background-image: url(e.jpg);
+		height: 200px
+		}
+
+h2{
+	 text-decoration: underline ;
+	 font-family: cardo-italic;
+	}
+	
+
+	}
+	#B{
+		color: red;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	main a{
+		text-decoration: none;
+		color: #F78181;
+	}
+	a:hover{
+		cursor: wait;
+	}
+
+	body{
+		background: #fbfbf3;
+		background-image: url(img.jpg);
+
+	}
+	section{
+		
+		margin-left: 50px:;
+		
+		font-size: 1em;
+		text-align: center;
+
+	
+	}
+	li{
+		font-family:cardo-regular;
+	}
+div{
+	width: 50%;
+	margin: auto;
+	background: #fbfbf3;
+	box-shadow: 10px 10px 10px grey;
+	background-image: url(fond.png);
+
+}

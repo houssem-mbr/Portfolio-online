@@ -1,0 +1,119 @@
+@font-face{
+	font-family: oswaldr;
+	src:url(img/oswald/oswald.regular.ttf);
+}
+@font-face{
+	font-family: oswaldl;
+	src:url(img/oswald/oswald.light.ttf);
+}
+@font-face{
+	font-family: oswaldb;
+	src:url(img/oswald/oswald.bold.ttf);
+}
+
+html{
+	background-image: url(img/fond.png);
+	background-repeat: repeat;
+}
+nav,h1{
+	font-size: 1.3em;
+	font-family: 'Oswald', sans-serif;
+	
+
+}
+div{
+	max-width: 750px;
+	margin:auto; 
+	background:white;
+	}
+header{
+		background:#B9CB21;
+		height: 200px
+	}
+header img{
+		float: left;
+		margin-top: 2em;
+	}
+main{
+		clear: both;
+		padding: 1.2em;
+
+
+
+	}
+main img{
+		float: left;
+		width: 11em;
+		margin: 0 1em 1em 1em ;
+		
+	}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 1em;
+    float: right;
+    margin-top: 5em;
+    margin-right: 3em;
+    font-size:18px; 
+
+
+
+}
+
+nav ul {
+
+	margin: 0;
+	padding: 0;
+
+}
+nav li a{
+	color:#153e01;
+}
+h1{
+	color: #B9CB21;
+	
+	margin-top: 
+}
+article a {
+	display: block;
+	color: #B9CB21;
+	float: right;
+	text-decoration: none;
+	color: white;
+	background-color: #B9CB21;
+	padding: 1em;
+}
+ article p,article ul {
+	text-align: justify;
+	font-family: 'montserrat', sans-serif;
+	line-height: 20px;
+	text-indent:20px;
+	color: #585858;
+
+
+}
+.b{
+	clear: both;
+}
+.a{
+	clear: both;
+}
+footer{
+	background-image: url(img/fond.png);
+	background-repeat: repeat;
+
+}
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
+article a {
+	font-family: 'montserrat', sans-serif;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ardoise Magique</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="ardoise.js"></script>
+	</head>
+	<body style="background-color:#B5B5B5FF"  class="text-center mt-3">
+		<h1 class="text-primary"><b>Ardoise Magique 3WA</b></h1>
+		<div style="background-color: #CECECEFF" class="row border border-light shadow-lg p-3 mb-5 rounded p-2">
+			<div class="col-md-5 text-right"><label class="h2 bg-light p-2 rounded text-dark "><b><i class="fas fa-tint"></i> Couleur</b></label></div>
+			<div class="pen-color black " data-color="black"><button style=" background:black;border-radius:50%;width:50px;height:50px;border:2px solid black"></button></div>
+			<div class="pen-color maroon pl-2" data-color="#5C2121"><button style=" background:#5C2121;border-radius:50%;width:50px;height:50px;border:2px solid #5C2121"></button></div>
+			<div class="pen-color red pl-2" data-color="#B9121B"><button style=" background:#B9121B;border-radius:50%;width:50px;height:50px;border:2px solid #B9121B"></button></div>
+			<div class="pen-color yellow pl-2" data-color="#FFBD07"><button style=" background:#FFBD07;border-radius:50%;width:50px;height:50px;border:2px solid #FFBD07"></button></div>
+			<div class="pen-color green pl-2" data-color="#13B813"><button style=" background:#13B813;border-radius:50%;width:50px;height:50px;border:2px solid #13B813"></button></div>
+			<div class="pen-color seagreen pl-2" data-color="#029E9A"><button style=" background:#029E9A;border-radius:50%;width:50px;height:50px;border:2px solid #029E9A"></button></div>
+			<div class="pen-color blue pl-2" data-color="#0378A6"><button style=" background:#0378A6;border-radius:50%;width:50px;height:50px;border:2px solid #0378A6"></button></div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<label class=" bg-primary p-1 rounded text-white"><b><i class="fas fa-fill"></i> Plus de couleur</b></label>
+			<input style=" border: none;background: none; height:30px" type="color" id="color" />
+		</div>
+		<div class="row">
+			<div class="col-md-5"></div>
+			<label class=" bg-success p-1 rounded text-white"><b><i class="fas fa-pencil-alt"></i> Choisir la Taille</b></label>
+			<input type="number" id="size" max="100" min="1" value="3" />
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-6"></div>
+			<button id="save" class="btn btn-success mr-2"><b><i class="fas fa-save"></i></b></button>
+			<button id="gomme" class="btn btn-info mr-2" data-color="white"><b><i class="fas fa-eraser"></i></b></button>
+			<button id="clear" class="btn btn-danger "><b><i class="fas fa-trash"></i></b></button>
+			
+		</div>
+		<br>
+		
+		
+		
+	</body>
+</html>
